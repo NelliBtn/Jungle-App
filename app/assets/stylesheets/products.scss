@@ -39,7 +39,19 @@ main section.categories-show {
         opacity: 0.3;
         transition: all 0.3s;
       }
-
+      
+      aside.soldout {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 10px;
+        background-color: #DF9997;
+        border-top-left-radius: 4px;
+        border-bottom-right-radius: 20px;
+        font-size: 0.9em;
+        color: #eee;
+      }
+      
       aside.price {
         position: absolute;
         top: 0;
@@ -50,6 +62,7 @@ main section.categories-show {
         border-bottom-left-radius: 20px;
         font-size: 0.8em;
       }
+
 
       &:hover {
 

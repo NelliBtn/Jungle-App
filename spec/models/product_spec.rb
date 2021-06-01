@@ -59,7 +59,8 @@ RSpec.describe Product, type: :model do
                             price: 20,
                             quantity: 5,
                             category: nil)
-      puts product.errors.full_messages.inspect
+      product.save
+      expect(product.errors.full_messages).to include("Category can't be blank")
       expect(product).to_not be_valid
     end
 

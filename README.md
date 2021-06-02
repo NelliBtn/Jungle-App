@@ -2,6 +2,10 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
+## Gifs
+![Main page](https://github.com/NelliBtn/Jungle-App/blob/master/gifs/main-page.gif?raw=true "Main page and product details")
+![Pay with Stripe](https://github.com/NelliBtn/Jungle-App/blob/master/gifs/paying.gif?raw=true "Pay with Stripe")
+
 ## Additional Steps for Apple M1 Machines
 
 1. Make sure that you are runnning Ruby 2.6.6 (`ruby -v`)
